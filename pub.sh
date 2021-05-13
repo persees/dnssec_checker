@@ -1,5 +1,5 @@
 
-len=$(wc -l lista.txt | cut -f1 -d' ')
+len=$(wc -l list.txt | cut -f1 -d' ')
 mapfile -t pubs < list.txt
 
 
